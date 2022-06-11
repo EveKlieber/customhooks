@@ -1,4 +1,4 @@
-export const PageAbout = () => {
+export const PageUseFetch = () => {
 	return (
 		<div className="page_about">
 			<h2>About</h2>

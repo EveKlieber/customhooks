@@ -1,7 +1,7 @@
 import './App.scss';
 import { PageWelcome } from './pages/PageWelcome';
-import { PageUseToggle } from './pages/PageUseToogle';
-import { PageAbout } from './pages/PageAbout';
+import { PageUseToggle } from './pages/PageUseToggle';
+import { PageUseFetch } from './pages/PageUseFetch';
 import { NavLink, Routes, Route, Navigate } from 'react-router-dom';
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
 			<Routes>
 				<Route path="/welcome" element={<PageWelcome />} />
 				<Route path="/use-toggle" element={<PageUseToggle />} />
-				<Route path="/about" element={<PageAbout />} />
+				<Route path="/about" element={<PageUseFetch />} />
 				<Route path="/" element={<Navigate to="/welcome" replace />}/>
 			</Routes>
 		</div>
