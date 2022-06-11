@@ -11,7 +11,7 @@ function App() {
 			<hr />
 			<NavLink to="/welcome">Welcome</NavLink> |{' '}
 			<NavLink to="/use-toggle">Use Toggle</NavLink> |{' '}
-			<NavLink to="/about">About</NavLink>
+			<NavLink to="/about">Use Fetch</NavLink>
 			<hr />
 			<Routes>
 				<Route path="/welcome" element={<PageWelcome />} />
